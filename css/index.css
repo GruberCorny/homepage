@@ -1,37 +1,71 @@
+
+* {
+  background-color: rgb(148, 148, 148);
+}
+
+body {
+ font: normal 1em/1.4 Arial; /* : font-weight font-size/line-height font-family */
+}
 .headline {
     color: #344333;
-    text-align: center;
-    background-color: #027575;
-    border: solid 3px #027575;
-    border-radius: 15%;
+    margin-left: 20%;
+    font-size: 50px;
 }
+
 .mainp {
     text-shadow: #027575 3px solid;
     text-align: center;
-    
 }
+
 .fos-s {
     color: #5e3453;
 }
 
-.naturfoto {
-    text-align: center;
-    border: solid 2px black;
-    border-radius: 50%;
-}
+
 .naturfotos {
     text-align: center;
 }
-body{
-    font-family: "Arial";
 
+#naturfoto1 {
+    text-align: center;
+    border: double 5px rgb(73, 8, 33);
+    border-radius: 50%;
 }
+
+#naturfoto1:hover {
+ size: 600px;
+}
+
 h1 {
-    background-color: #e2e2e2;
-    padding: 5px;
+    font-size: 20px;
 }
 
 .section-title{
     text-transform: uppercase;
 }
 
+.listhobby {
+    color: rgb(3, 33, 58);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Pseudo-Classes: */
+a:link{  
+  color: orange;
+}
+a:visited {
+    color: #3f033b;
+}
+a:hover {
+    color: limegreen;
+}
+a:active {
+    color: lightcoral;
+}
+focus {
+    color: white;
+    background-color: orange;
+}
